@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mian(){
+int main(){
     int n,m;
     scanf("%d %d",&n,&m);
     int x=n>>m;
