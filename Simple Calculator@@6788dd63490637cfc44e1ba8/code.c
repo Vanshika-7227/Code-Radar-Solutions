@@ -16,6 +16,7 @@ int main(){
         printf("%d",c);
         break;
         default: printf("Error");
+        break;
     }
     return 0;
 }
