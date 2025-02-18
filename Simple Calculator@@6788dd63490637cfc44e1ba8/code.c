@@ -16,5 +16,6 @@ int main(){
         result=a/b;
         break;
     }
+    printf("%d",result);
     return 0;
 }
