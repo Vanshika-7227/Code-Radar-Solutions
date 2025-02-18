@@ -4,16 +4,16 @@ int main(){
     scanf("%d %d",&a,&b);
     switch(result){
         case '+' :
-        result=a+b;
+        printf("%d",a+b);
         break;
         case '-' :
-        result=a-b;
+        printf("%d",a-b);
         break;
         case '*' :
-        result=a*b;
+        printf("%d",a*b);
         break;
         case '/' :
-        result=a/b;
+        printf("%d",a/b);
         break;
     }
     printf("%d",result);
